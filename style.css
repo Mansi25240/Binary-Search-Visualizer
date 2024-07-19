@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+/* Add a specific style for the mid element */
+.mid {
+    background-color: #ffcc80; /* Light orange */
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    width: calc(100% - 42px);
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#steps-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.step {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.array-row {
+    display: flex;
+    justify-content: center;
+}
+
+.array-element {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.active {
+    background-color: #ffa;
+}
+
+.found {
+    background-color: #8f8;
+}
+
+.not-found {
+    background-color: #f88;
+}
